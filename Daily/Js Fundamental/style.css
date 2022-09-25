@@ -1,0 +1,23 @@
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 170px;
+}
+
+#decrement{
+    text-align: center;
+    background-color: red;
+
+}
+
+#increment{
+    text-align: center;
+    background-color: aqua;
+}
+
+#body{
+    align-items: center;
+}
+
+
+

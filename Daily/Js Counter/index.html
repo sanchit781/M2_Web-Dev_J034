@@ -1,0 +1,33 @@
+<!DOCTYPE htmt> 
+<html lang="en"»
+<head>
+    <meta http-equiv="Content-Type"
+        content="text/html; charset=UTF-8" />
+
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanchit Counter App></title> 
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<style>
+    body {
+        text-align: center;
+    }
+</style>
+<script src="script.js"></script>
+
+<body>
+<h1>SanchitxCounter App</h1> 
+<div class="number-input">
+    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" onclick="decrement()" class="decrement" id="decrement" onmouseover="bgChange(this.style.backgroundColor)" 
+    onmouseout="bgChange('transparent')"
+    style="background-color:aqua"></button>
+    <input class="quantity" min="0" name="quantity" value="1" type="number">
+    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus" onclick="increment()" class="increment" id="increment" onmouseover="bgChange(this.style.backgroundColor)" 
+    onmouseout="bgChange('transparent')"
+    style="background-color:pink"></button>
+  </div>
+</div>
+</body> 
+</html>
